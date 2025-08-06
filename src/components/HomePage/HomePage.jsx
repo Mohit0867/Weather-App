@@ -74,16 +74,16 @@ const HomePage = () => {
     }
   }, []);
   return (
-    <div className="py-5 w-100 text-white  ">
+    <div className="py-5 w-100 text-white">
       {weather ? (
-        <div className="w-100 gap-md-5 d-flex justify-content-center ">
+        <div className="w-100 gap-md-5 d-flex justify-content-center">
           <div
             className="d-flex flex-column justify-content-center align-items-center"
             style={{ lineHeight: "7rem" }}
           >
             <p
               style={{ fontSize: "4rem", color: "#FFFFFF", textWrap: "nowrap" }}
-              className="ps-5 pt-3 fw-bold "
+              className="ps-5 pt-3 fw-bold"
             >
               {weather.name}
             </p>
@@ -102,12 +102,11 @@ const HomePage = () => {
               {Math.floor(weather.main.temp)}
               <sup>&deg;c</sup>
             </h1>
-            <div className=" w-100 pt-2 d-flex flex-column align-items-end pe-5 pe-sm-3">
+            <div className="w-100 pt-2 d-flex flex-column align-items-end pe-5 pe-sm-3">
               <p className="text-nowrap">
                 Wind Speed : {weather.wind.speed} m/s
               </p>
               <p className="text-nowrap">
-                {" "}
                 Sky : {weather.weather[0].description}
               </p>
             </div>
@@ -121,5 +120,4 @@ const HomePage = () => {
     </div>
   );
 };
-
 export default HomePage;

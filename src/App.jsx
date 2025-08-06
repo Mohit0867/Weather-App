@@ -17,7 +17,6 @@ const App = () => {
           background: "#0E0E0E",
         }}
       >
-        {" "}
         <p
           style={{
             background: "#E5E7EB",
