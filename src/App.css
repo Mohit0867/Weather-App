@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.main {
+  background: #0e0e0e;
+  box-shadow: 0px 0px 20px #fff;
+}
+@media (max-width: 767.98px) {
+  .w-sm-75 {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 60% !important;
+  }
+}
